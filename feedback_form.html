@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback Form</title>
+	<style>
+		h1{
+			background-color: black;
+			color: white;
+			text-align: center;
+		}
+		label,input{
+		margin-left: 10px;
+	}
+	form{
+		height: auto;
+		width: 300px;
+		border:0.5px solid black;
+		}
+	div{
+		margin-left: 38%;
+	}
+	button{
+		margin-left: 45%;
+		background-color: green;
+		color: white;
+		height: 30px;
+		width: 150px;
+	}
+	a{
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+	<h1>Feedback Form</h1>
+	<div>
+	<form>
+		<label for="name">Name:</label><br>
+			<input type="text" id="name" placeholder="Enter your name"><br><br>
+		<label for="mail">E-Mail:</label><br>
+			<input type="E-mail" id="mail" placeholder="Enter your mail-id"><br><br>
+		<label for="num">Contact Number:</label><br>
+			<input type="text" id="num" placeholder="Enter your contact number"><br><br>
+		<label for="tos">Type of Service:</label><br>
+			<input type="text" id="tos" placeholder="Enter your type of service"><br><br>
+		<label for="rate">Rating:</label><br>
+			<input type="range" step="1" min="0" max="5" id="rate"><br><br>
+		<label for="high">Highlights:</label><br>
+		
+			<textarea cols="30" rows="5" style="margin-left: 10px;"></textarea>
+		<label for="draw">Drawbacks:</label><br>
+			<textarea cols="30" rows="5" style="margin-left: 10px;"></textarea>
+		<label for="sugg">Suggestions for Improvement:</label><br>
+			<textarea cols="30" rows="5" style="margin-left: 10px;"></textarea>
+		
+	</form>
+</div>
+<br>
+<button>SUBMIT</button>
+</body>
+</html>
